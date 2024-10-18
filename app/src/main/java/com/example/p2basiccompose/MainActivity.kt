@@ -84,6 +84,12 @@ fun BasicColumn(modifier: Modifier = Modifier){
             text = "Musthafa Luthfi",
             fontSize = 24.sp,
         )
+        Spacer(modifier = Modifier.padding(5.dp))
+
+        Text(
+            text = "20220140201",
+            fontSize = 24.sp,
+        )
     }
 }
 
