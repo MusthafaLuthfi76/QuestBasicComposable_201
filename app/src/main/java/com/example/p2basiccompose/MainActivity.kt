@@ -55,12 +55,12 @@ fun BasicColumn(modifier: Modifier = Modifier){
             .fillMaxSize()
             .padding(top = 35.dp)
     ) {
-        Text("Hello",
+        Text("Login",
             fontSize = 100.sp,
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(10.dp))
         Text(
-            text = "Jetpack Composes",
+            text = "Ini Halaman Login",
             fontSize = 30.sp,
             fontStyle = FontStyle.Italic
         )
