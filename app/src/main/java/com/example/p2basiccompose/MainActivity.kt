@@ -72,6 +72,12 @@ fun BasicColumn(modifier: Modifier = Modifier){
             contentDescription = "",
             modifier = Modifier.clip(CircleShape).size(250.dp)
         )
+        Spacer(modifier = Modifier.padding(10.dp))
+
+        Text(
+            text = "Nama",
+            fontSize = 24.sp,
+        )
     }
 }
 
