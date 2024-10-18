@@ -1,6 +1,7 @@
 package com.example.p2basiccompose
 
 import android.os.Bundle
+import android.widget.Space
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -90,6 +91,14 @@ fun BasicColumn(modifier: Modifier = Modifier){
             text = "20220140201",
             fontSize = 24.sp,
         )
+        Spacer(modifier = Modifier.padding(15.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.pp),
+            contentDescription = "",
+            modifier = Modifier.clip(CircleShape).size(250.dp)
+        )
+        Spacer(modifier = Modifier.padding(10.dp))
     }
 }
 
