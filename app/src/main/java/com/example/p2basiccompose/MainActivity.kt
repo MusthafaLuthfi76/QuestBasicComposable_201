@@ -57,7 +57,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
         verticalArrangement = Arrangement.Top,
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 30.dp)
+            .padding(top = 5.dp)
     ) {
         Text("Login",
             fontSize = 60.sp,
