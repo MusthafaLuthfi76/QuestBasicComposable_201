@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -66,7 +67,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
             fontSize = 30.sp,
             fontStyle = FontStyle.Italic
         )
-        Spacer(modifier = Modifier.padding(15.dp))
+        Spacer(modifier = Modifier.padding(10.dp))
 
         Image(
             painter = painterResource(id = R.drawable.logou),
@@ -84,6 +85,8 @@ fun BasicColumn(modifier: Modifier = Modifier){
         Text(
             text = "Musthafa Luthfi",
             fontSize = 18.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.Bold
         )
         Spacer(modifier = Modifier.padding(5.dp))
 
