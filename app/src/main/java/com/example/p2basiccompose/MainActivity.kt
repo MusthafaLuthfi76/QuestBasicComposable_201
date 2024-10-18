@@ -50,21 +50,21 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun BasicColumn(modifier: Modifier = Modifier){
     Column(horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 35.dp)
+            .padding(top = 30.dp)
     ) {
         Text("Login",
             fontSize = 100.sp,
             fontWeight = FontWeight.Bold)
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
         Text(
             text = "Ini Halaman Login",
             fontSize = 30.sp,
             fontStyle = FontStyle.Italic
         )
-        Spacer(modifier = Modifier.padding(20.dp))
+        Spacer(modifier = Modifier.padding(15.dp))
 
         Image(
             painter = painterResource(id = R.drawable.baju),
@@ -78,6 +78,6 @@ fun BasicColumn(modifier: Modifier = Modifier){
 @Composable
 fun GreetingPreview() {
     P2BasicComposeTheme {
-        Greeting("Android")
+        BasicColumn()
     }
 }
